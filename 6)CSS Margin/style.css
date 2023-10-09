@@ -1,0 +1,43 @@
+h1 {
+    color: blueviolet;
+    background-color: aqua;
+    border: 3px solid pink;
+    border-radius: 35px 10em 10%;
+    margin: 5px;
+    padding: 10px;
+    box-sizing:content-box;
+}
+
+p.para1 {
+    color: #000000;
+    background-color: rgb(108, 163, 25);
+    border-top: 34px;
+    margin-top: 34px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    margin-left: 34px;
+}
+
+#para2 {
+    color: hsl(255, 25, 12);
+    background-color: rgb(110, 13, 35);
+    margin-block-start: 12px;
+    padding-left: 14px;
+    margin-left: inherit;
+}
+
+/* p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+} */
+
+div {
+    border: 1px solid red;
+    margin-left: 100px;
+  }
+  
+p.ex1 {
+    margin-left: inherit;
+}
