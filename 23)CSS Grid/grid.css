@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 700px;
+    border: 1px solid red;
+    background: yellow;
+    display: grid;
+    grid-gap: 10px;
+
+    grid-auto-rows: minmax(100px, auto);
+    /* grid-template-rows: repeat(2,1fr); */
+    grid-template-columns: repeat(4, 1fr);
+
+    /* grid-template-areas: 
+    "hd"
+    "side"
+    "main"
+    "ft"; */
+}
+
+.box{
+    border: 1px solid green;
+    background: aqua;
+}
+
