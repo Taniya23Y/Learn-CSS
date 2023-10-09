@@ -1,0 +1,35 @@
+/* 1) element / tag selector */
+/* h1 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } */
+
+  /* 2) id selector */
+/* #list1 {
+    background-color: thistle;
+    font-size: inherit;
+  } */
+
+  /* 3) class selector */
+/* .para2 {
+    color: violet;
+    background-color: aquamarine;
+  } */
+
+  /* 4)universal selector (good practice) */   
+/* * {
+    margin: 0px;
+    padding: 0px;
+  } */
+
+  /* 5) gouping selector */
+/* h1, p, ul {
+         background-color: bisque;
+         color: black;
+         font-weight: 100px;
+   } */
+
+/* external and internal different */
+h1{
+  color: green;
+}
