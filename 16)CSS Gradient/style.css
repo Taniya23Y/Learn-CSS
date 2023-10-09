@@ -1,0 +1,35 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-image: linear-gradient(yellow,blue);
+    background-image: linear-gradient( to right, yellow,rgb(40, 146, 144));
+    background-image: linear-gradient( to left, yellow,blue);
+    background-image: linear-gradient( to bottom, yellow,blue);
+    background-image: linear-gradient( to top, yellow,blue);
+    background-image: linear-gradient( to bottom right, yellow,blue);
+    background-image: linear-gradient( to bottom left, yellow,blue);
+    background-image: linear-gradient( 90deg, yellow,blue);
+    background-image: linear-gradient( to bottom,rgba(255,0,255), rgba(234,56,89));
+}
+
+.myDiv{
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    background-image: radial-gradient(circle,yellow,purple, orange);
+    background-image: radial-gradient(yellow 5%,purple 10%, orange 50%);
+
+}
+
+.conic{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-image: conic-gradient(orange,white,green);
+    background-image: repeating-conic-gradient(orange 0deg 10deg,white 20deg 30deg,green 30deg 40deg);
+    border-radius: 50%;
+}  
