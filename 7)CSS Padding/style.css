@@ -1,0 +1,23 @@
+#padding1 {
+    border: 3px;
+    border-color: aqua;
+    color: blueviolet;
+    background-color: bisque;
+    margin: 5px;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.para2 {
+    color: yellow;
+    border-top-right-radius: 115px;
+    border-color: rgba(68, 0, 255, 0.49);
+    background-color: red;
+    margin: 12px 4px 6px;
+    padding: 19px 5px 9px 8px;
+    box-sizing: border-box;
+
+}
