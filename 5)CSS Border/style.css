@@ -1,0 +1,51 @@
+header {
+  color: rgb(194, 76, 113);
+}
+
+#para1 {
+  color: blueviolet;
+}
+
+ol {
+  border-collapse: collapse;
+  background-position: center;
+  color: brown;
+}
+
+#border1 {
+  border-style: dotted;
+}
+
+.border {
+  border-style: ridge; 
+  border-width: 5px;
+  border-color: rgb(78, 10, 95);
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+
+.border1 {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 8px;
+  /* border-color: rgb(63, 5, 104); */
+  border-left-style: groove;
+  border-right-style: groove;
+}
+
+#border3 {
+  background: #f2efef
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKivvwviZEIWSn37AktW02XYUiufInNC35dQ&usqp=CAU)
+    repeat scroll left top / cover;
+    color: white;
+}
+
+.border4 {
+  border-style: solid;
+  /* border-radius: 5px; */
+  border-top-right-radius: 32px; /* Rounded border */
+  border-bottom-left-radius: 32px;
+  border-color: rgb(31, 18, 104);
+  padding: 10px;
+  background-color: rgb(20, 114, 110);
+}
