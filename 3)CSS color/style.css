@@ -1,0 +1,23 @@
+h1 {
+    color: brown;
+}
+
+#hex {
+    color: #00ff00;   /*Hexadecimal vlaue --> #RRGGBB*/
+}
+
+#rgb {
+    color: rgb(55,34,23);    /*rgb vlaue --> rgb(rr,gg,bb)*/
+}
+
+.predefined {
+    color: pink;   /*rgb vlaue --> red*/
+}
+
+.rgba {
+    color: rgba(89,114,223,0.7);    /*rgba vlaue --> rgba(rr,gg,bb)*/
+}
+
+.hsl {
+    color: hsl(356,50%,50%);   /*hslvlaue --> hsl(hue(red),saturation(green),lightness(blue))*/
+}
