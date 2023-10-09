@@ -1,0 +1,23 @@
+h1 {
+  color: darkgreen;
+}
+
+p.one {
+  background-color: aquamarine;
+}
+
+#one {
+  background-color: blueviolet; /* background-color: */
+}
+
+div.one {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWYenGebfzJCuwiR4WdjzTzI7BdavwbbeHA&usqp=CAU);
+  background-repeat: repeat;
+  color: white;
+}
+
+p {
+    background-color: rgb(116, 123, 48);
+    background-position: center;
+    background-attachment: fixed;
+}
