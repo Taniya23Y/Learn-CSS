@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: beige;
+    border: 2px solid black;
+    /* transition property */
+    /* transition-property: all;
+    transition-duration: 4s; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function: ease-out; */
+
+    /* shorthnad notation */
+    /* transition: property name | duration | delay | easing function; */
+    /* transition: all 2s 5s ease-in; */
+    transition: width 2s, heigth 5s;
+}
+
+.box:hover{
+    width: 900px;
+    height: 500px;
+    background-color: pink;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid red;
+    display: flex;
+}
+
+.box1{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid orange;
+    background-color: aqua;
+
+    /* transition: 1s; */
+
+    /* all is bad practice */
+    /* transition-property: all;  */
+    /* transition-property: background-color;  */
+    /* transition-delay: 5s; */
+
+    /* tarnsition shorthand poropeties */
+
+    /* property name | duration | easing function | delay */
+    transition: transform 1s ease 1s;
+}
+
+.box1:hover{
+    /* background-color: brown; */
+    transform: rotate(45deg);
+
+}
