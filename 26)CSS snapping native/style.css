@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/**********************************/
+.main{
+    width: 80%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.a{
+    height: 80%;
+    width: 40%;
+    background-color: yellow;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+.a:nth-child(2n){
+    background-color: rgb(159, 32, 157);
+}
